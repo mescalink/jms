@@ -24,3 +24,156 @@ background: rgba(0,0,0,0) url('/images/sections/delegate.jpg') repeat scroll 0 0
 background: rgba(0,0,0,0) url('/images/sections/others.jpg') repeat scroll 0 0;
 }
 
+.main-menu {
+    /*background-color: #2F71A1;*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.main_menu_button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2.6rem;
+    padding: 0 15px 0;
+}
+.main-menu ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 12;
+}
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu a {
+    color: #444;
+    display: block;
+    font-family: "RobotoRegular";
+    font-size: 1.4rem;
+    margin: 0;
+    o-transition: all .25s;
+    outline: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: all .25s;
+    webkit-transition: all .25s;
+}
+.main-menu li.active a {
+    background-color: #6296BC;
+}
+.main-menu a:hover {
+    background-color: #6296BC;
+    text-decoration: none;
+}
+section > .line {
+    position: absolute;
+    top: 0px;
+    bottom: auto;
+    left: 0px;
+    right: auto;
+    width: 0.5rem;
+    height: 100%;
+    z-index: 999;
+}
+
+section .item  {
+    
+    background-color: rgba(255,255,255,.8);
+    min-height:500px;
+}
+.block .icon {
+    display:inline-block;
+    vertical-align:middle;
+    float:left;
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    margin:0 10px 0 0;
+}
+.block .header {
+    display:inline-block;
+    vertical-align:middle;
+    /*font-family: Mariad_pro,"Helvetica",Helvetica,Arial,sans-serif;*/
+    font-size: 1.6rem;
+    line-height: 36px;
+    height: 36px;
+    color: #215173;
+    font-weight: 400;
+    text-align:left;
+}
+.block .description {
+    margin-top:10px;
+}
+.block ul {
+    margin:0 0 0 30px;
+    padding:0;
+}
+
+/*============ Section Guide ============*/
+.section-guide .line {
+ background: #007676 none repeat scroll 0% 0%;
+}
+.section-guide h1 {
+        color: #007676;
+    }
+.section-guide .icon {
+      background-color:  #007676;;
+    }
+
+.section-guide .header {
+        color: #007676;
+        font-family: "RobotoCondensedRegular";
+    }
+.section-guide .btn-detail {
+        background-color: #007676;
+        color: #fff;
+        opacity: 0.8;
+        font-weight: bold;
+    }
+.section-guide .btn-detail:hover {
+       opacity: 1;
+    }
+
+
+
+.section-extguide .line {
+    
+}
+.section-prague .line {
+    
+}
+.section-delegate .line {
+    
+}
+.section-others .line {
+    
+}
+.blocks {
+    margin-top: 30px;
+}
+.block {
+    height:240px;
+    background-color: rgba (255,255,255,.5);
+    background-color: #EEF3F3;
+     /*background-color: #CAD4DD;*/
+     border-radius:10px;
+     padding:10px;
+     text-align:left;
+}
+
+
+.i-calendar {
+    background: url('/images/icons/calendar.png') no-repeat center center;
+}
+.i-forms {
+    background: url('/images/icons/forms.png') no-repeat center center;
+}
+.i-sert {
+    background: url('/images/icons/sert.png') no-repeat center center;
+}
+.i-cost {
+    background: url('/images/icons/cost.png') no-repeat center center;
+}
