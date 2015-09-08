@@ -38,39 +38,49 @@ line-height:1.4rem;
 	text-decoration: underline;
 }
 
-.review {
-	padding-right:0;
-}
-.review h2 {
-	margin-bottom:0;
+
+/*============= Reviews Left ==*/
+
+.reviews-left {
+	font-size:1.4rem;
 	
 }
-.review-slider-container {
+.reviews-left h2 {
+	margin-bottom:20px;
+}
+.reviews-list-container {
 	padding:0 10px;
 	position:relative;
 }
-.review-slider {
+
+.reviews-list {
 	padding:0;
 	margin:0;
-
 }
-.item-review {
+
+.reviews-list .item {
 border-radius:10px;
-padding:10px;
+padding:10px 10px 10px 10px;
+background-color: #fff;
 }
 
-
-.item-review .photo
-{
+.reviews-list .item .photo {
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+	width: 50px;
 	display:inline-block;
-	vertical-align:middle;
-	margin-right:7px;
-	width:80;
-	height:80;
-	border-radius:50%;
-
 }
-.item-review .header {
+
+.reviews-list .item .photo img {
+	border-radius: 50%;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+
+.reviews-list .item .header {
   display:inline-block;
   vertical-align:middle;
 	font-size: 1.4rem;
@@ -88,13 +98,13 @@ padding:10px;
 	font-size: 1.3rem;
 	/*font-style: italic;*/
 }
-.item-review .text {
+.item .text {
   font-size: 1.3rem;
   font-style: italic;
   display:block;
 }
-.review .next,
-.review .prev {
+.reviews-left .next,
+.reviews-left .prev {
 font-size:2rem;
 line-height:2rem;
 position:absolute;
@@ -109,13 +119,15 @@ font-weight:900;
 
 }
 
-.review .next:hover,
-.review .prev:hover {
+.reviews-left .next:hover,
+.reviews-left .prev:hover {
 	background-color: rgba(0,0,0,.3);
 }
-.review .prev {
+.reviews-left .prev {
 	left:0px;
 }
-.review .next {
+.reviews-left .next {
 	right:0px;
 }
+
+.

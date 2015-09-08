@@ -350,6 +350,10 @@ aside {
 .item-prop {
 	margin-right: 1px;
 }
+.item-prop {
+	margin-bottom: 20px;
+	padding: 10px 10px;
+}
 h1, h2, h3 {
 	font-family: "RobotoCondensedRegular";
 	text-transform: uppercase;
@@ -370,7 +374,7 @@ h1, h2, h3 {
 .reviews h2 {
 	text-decoration: underline;
 }
-.item-review {
+.reviews .item-review {
 	background-color: #fff;
 	border-radius: 10px;
 	margin-bottom: 20px;
@@ -379,20 +383,20 @@ h1, h2, h3 {
 	padding: 15px;
 	position: relative;
 }
-.item-review .photo {
+.reviews .item-review .photo {
 	height: 50px;
 	margin: 0 auto;
 	padding: 0;
 	width: 50px;
 }
-.item-review .photo img {
+.reviews .item-review .photo img {
 	border-radius: 50%;
 	height: 50px;
 	margin: 0;
 	padding: 0;
 	width: 50px;
 }
-.item-review .name {
+.reviews .item-review .name {
 	text-align: left;
 }
 .name .fio {
@@ -416,10 +420,7 @@ h1, h2, h3 {
 	font-style: italic;
 	margin-top: 10px;
 }
-.item-prop {
-	margin-bottom: 20px;
-	padding: 10px 10px;
-}
+
 .bg-yellow {
 	background-color: #F6F993;
 }

@@ -1,20 +1,21 @@
 $(document).ready(function() {
   $('#quotes ul li').quovolver(800,15000);
 
-var review = $("#review-slider-left");
- review.owlCarousel({
+var reviews = $("#reviews-slider");
+var reviews_container= $("#reviews-slider-container");
+ reviews.owlCarousel({
 		items :1,
 		autoPlay: true,
-		autoHeight:true
+		autoHeight:false
 	});
 
-	$(".review-slider-container .next").click(function(){
-		//alert("rfgdfgdfg");
-		review.trigger("owl.next");
+	reviews_container.find(".next").click(function(){
+
+		reviews.trigger("owl.next");
 	});
-	$(".review-slider-container .prev").click(function(){
+	reviews_container.find(".prev").click(function(){
 		//alert ("ergtdergt");
-		review.trigger("owl.prev");
+		reviews.trigger("owl.prev");
 	});
 
 
