@@ -1,5 +1,5 @@
 .news-list {
- font-size:1.4rem;
+	font-size:1.4rem;
 }
 .news-list ul
 {
@@ -11,21 +11,21 @@
 	margin:2px 0 3px 0;
 }
 .news-list li a {
-  font-size:1.4rem;
+	font-size:1.4rem;
 	line-height:1.6rem;
 }
 .news-list li a:hover {
 	text-decoration: underline;
 }
 .news-list  ul li .date{
- display: inline-block;
- margin-right:5px;
- padding:2px 5px;
- background-color:#CAD4DD;
- color:#1A5C8C;
- border-radius:3px;
- font-size:1.3rem;
-line-height:1.4rem;
+	display: inline-block;
+	margin-right:5px;
+	padding:2px 5px;
+	background-color:#CAD4DD;
+	color:#1A5C8C;
+	border-radius:3px;
+	font-size:1.3rem;
+	line-height:1.4rem;
 }
 .news-list .read-more {
 	display: block;
@@ -59,9 +59,9 @@ line-height:1.4rem;
 }
 
 .reviews-list .item {
-border-radius:10px;
-padding:10px 10px 10px 10px;
-background-color: #fff;
+	border-radius:10px;
+	padding:10px 10px 10px 10px;
+	background-color: #e5eaea
 }
 
 .reviews-list .item .photo {
@@ -81,8 +81,8 @@ background-color: #fff;
 }
 
 .reviews-list .item .header {
-  display:inline-block;
-  vertical-align:middle;
+	display:inline-block;
+	vertical-align:middle;
 	font-size: 1.4rem;
 
 }
@@ -99,23 +99,24 @@ background-color: #fff;
 	/*font-style: italic;*/
 }
 .item .text {
-  font-size: 1.3rem;
-  font-style: italic;
-  display:block;
+	font-size: 1.3rem;
+	font-style: italic;
+	display:block;
+	padding: 8px 0;
 }
 .reviews-left .next,
 .reviews-left .prev {
-font-size:2rem;
-line-height:2rem;
-position:absolute;
-top: 40%;
-cursor:pointer;
-z-index:20;
-line-height:2rem;
-width:10px;
-border-radius:3px;
-text-align:center;
-font-weight:900;
+	font-size:2rem;
+	line-height:2rem;
+	position:absolute;
+	top: 40%;
+	cursor:pointer;
+	z-index:20;
+	line-height:2rem;
+	width:10px;
+	border-radius:3px;
+	text-align:center;
+	font-weight:900;
 
 }
 
@@ -130,4 +131,31 @@ font-weight:900;
 	right:0px;
 }
 
-.
+/*============ Ыгиыскшиу ==========*/
+
+
+
+.btn-subscribe {
+	color:#ddd;
+	text-transform: none;
+	background-color: #2F71A1;
+	float: right;
+}
+.btn-subscribe:hover {
+ color:#fff;
+}
+
+
+
+.subscribe input[type="email"] {
+	display:block;
+	width:95%;
+	height:25px;
+	font-family: "RobotoRegular";
+	color:#777;
+	vertical-align:middle;
+	margin:5px 20px 5px 10px;
+	border: 1px solid #2F71A1;
+
+}
+
