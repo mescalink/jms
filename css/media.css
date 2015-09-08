@@ -1,0 +1,86 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.menu-courses>ul {
+		display:none;
+		position: absolute;
+		width:100%;
+		background-color: #2787BC;
+		
+	}
+.menu-courses>ul>li {
+		display:block !important;
+	}
+		.top-menu {
+		margin-top:0 !important;
+	}
+			.top-logo {
+		margin-top:10px ;
+		margin-bottom: 5px;
+	}
+	.footer-item {
+	margin-top: 20px;
+	margin-bottom:0px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.btn-order {
+		float:left;
+	}
+		.footer-item {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+	.top-menu {
+		margin-top:0 !important;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.menu-courses>ul{
+		display:block !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
