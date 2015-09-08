@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
-
+	<link rel="stylesheet" href="css/page.css" />
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
@@ -154,10 +154,8 @@
 						<div class="content-left" id="main-left">
 							<div class="item">
 								<div class="row">
-									<div class="col-md-7 col-sm-7 col-xs-12"><h1>Базовый курс гида</h1></div>
-									<div class="col-md-5 col-sm-5 col-xs-12">
-										<a class="btn btn-order" href="#"><i class="fa fa-check-square-o"></i>&nbsp;Записаться на курс</a>
-									</div>
+									<div class="col-md-12 col-sm-12 col-xs-12"><h1>Статическая страница</h1></div>
+									
 								</div>
 								<div class="row">
 									<div class="col-md-12 col-sm-12">
@@ -174,225 +172,210 @@
 											</div><!-- .item-content -->
 										</div><!--.col-md-12 -->
 									</div><!--.row -->
-							</div><!--.item-->
-						</div><!--.content-left -->
-					</div><!--.col-md-9-->
+								</div><!--.item-->
+							</div><!--.content-left -->
+						</div><!--.col-md-9-->
 						<div class="col-md-3 col-sm-12">
 							<aside id="main-right">
 								<div class="row">
-										<!-- Стоимость обучения-->
+									<!-- Стоимость обучения-->
 									<div class="col-md-12 col-sm-6 col-xs-12">										
-										<div class="item-prop ">
-											<h2>Стоимость обучения</h2>
+										<div class="item-prop news-list">
+											<h2>Новости</h2>
 											<div class="item-prop-content">
 												<ul>
-													<li>стационарно <span class="f-red">9900&nbsp;CZK / 380&nbsp;EUR</span></li>
-													<li>дистанционно <span class="f-red">9100&nbsp;CZK / 350&nbsp;EUR</span></li>
-													<li>экстерн <span class="f-red">3800&nbsp;CZK / 150&nbsp;EUR</span></li>
+													<li><a href="#" title="some title"><span class="date">12/09</span>Набор группы на расширенный курс гидов</a></li>
+													<li><a href="#" title="some title"><span class="date">10/09</span>Поездка в Карловы вары</a></li>
+													<li><a href="#" title="some title"><span class="date">08/09</span>Мы обновили наш сайт!</a></li>
 												</ul>
+												<a href="#" class="read-more">читать еще..</a>
 											</div>
 										</div>
 									</div>
-										<!-- Длительность-->
-									<div class="col-md-12 col-sm-6 col-xs-12">
-										<div class="item-prop">
-											<h2>Длительность курсов гида</h2>
-											<div class="item-prop-content">
-												<ul>
-													<li>250ак./часов</li>
-													<li>3 раза в неделю, 17:00-20:15</li>
-													<li>2,5 месяца</li>
-												</ul>
+
+									<div class="col-md-12 col-sm-6 col-xs-12">										
+										<div class="item-prop review">
+											<h2>Отзывы</h2>
+											<div class="review-slider-container">
+												<div class="next"><i class="fa fa-angle-right"></i>
+												</div>
+												<div class="prev"><i class="fa fa-angle-left"></i>
+												</div>
+
+												<div class="item-prop-content review-slider" id="review-slider-left">
+													<div class="item-review">
+														<img class="photo" src="images/photo/man.jpg" alt="photo">
+														<div class="header"><span class="name">Андрей Колесников</span><span class="underline">выпускник, 2015г.</span></div>
+														<div class="text">
+															Выражаю благодарность всем сотрудникам центра Jumages за этот интересный курс. Получил новую, интересную специальность... 
+														</div>
+													</div>
+
+													<div class="item-review">
+														<img class="photo" src="images/photo/man.jpg" alt="photo">
+														<div class="header"><span class="name">Андрей Колесников</span><span class="underline">выпускник, 2015г.</span></div>
+														<div class="text">
+															Выражаю благодарность всем сотрудникам центра Jumages за этот интересный курс. Получил новую, интересную специальность... 
+														</div>
+													</div>
+													
+													<div class="item-review">
+														<img class="photo" src="images/photo/man.jpg" alt="photo">
+														<div class="header"><span class="name">Андрей Колесников</span><span class="underline">выпускник, 2015г.</span></div>
+														<div class="text">
+															Выражаю благодарность всем сотрудникам центра Jumages за этот интересный курс. Получил новую, интересную специальность... 
+														</div>
+													</div>
+													
+
+
+												</div>
 											</div>
 										</div>
 									</div>
-									<!-- /Длительность-->
-									<!-- Сертификат -->
-									<div class="col-md-12 col-sm-6 col-xs-12">
-										<div class="item-prop">
-											<h2>Сертификат</h2>
-											<div class="item-prop-content">
-												<ul>
-													<li>Наивысшая квалификацм экскурсовода 65021 N</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<!-- /Сертификат -->
-												<!--Набоh групп -->
-									<div class="col-md-12 col-sm-6 col-xs-12">
-										<div class="item-prop bg-blue">
-											<h2>Набор групп в 2015 году</h2>
-											<div class="item-prop-content">
-												
-												<table class="group-reg">
-													<thead>
-														<tr>
-															<th class="date">Дата</th>
-															<th class="info">Регистрация</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td>2 августа</td>
-															<td>закрыта</td>
-														</tr>
-														<tr>
-															<td>10 сентября</td>
-															<td>открыта</td>
-														</tr>
-														<tr>
-															<td>15 октября</td>
-															<td> открыта </td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</div>
-									</div>
-										<!--/Набор групп -->
+
 								</div> <!--.row -->							
-						</aside>
-					</div>
-
-				</div> <!--row bg-light-blue -->
-
-			</div>
-		</section>
-
-		<section class="reviews" id="reviews">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12">
-						<h2>Отзывы выпускников</h2>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="item-review">
-							<div class="row">
-								<div class="col col-md-3 col-sm-3 col-xs-12">
-									<div class="photo">
-										<img src="http://ladymadonna.ru/wp-content/uploads/2013/10/ladymadonna.ru_41-150x150.jpg" alt="alt">
-									</div>
-								</div>
-								<div class="col-md-9 col-sm-9 col-xs-12">
-									<div class="name">
-										<span class="fio">Елена Иванова</span><span class="underline">выпускник, 2014г.</span>
-									</div>
-								</div>
-								<div class="col-md-12 review-text">
-									Решила пройти это курс и не пожалела. Масса положительных эмоций и впечатлений...
-								</div>
-							</div><!-- .row -->
-						</div><!--.item-review -->
-					</div><!--.col-md-4 -->
-					<div class="col-md-4 col-sm-4">
-						<div class="item-review">
-							<div class="row">
-								<div class="col col-md-3 col-sm-3 col-xs-12">
-									<div class="photo">
-										<img src="/images/photo/man.jpg" alt="alt">
-									</div>
-								</div>
-								<div class="col-md-9 col-sm-9 col-xs-12">
-									<div class="name">
-										<span class="fio">Андрей Пургин</span><span class="underline">выпускник, 2015г.</span>
-									</div>
-								</div>
-								<div class="col-md-12 review-text">
-									Выражаю благодарность всем сотрудникам центра Jumages за этот интересный курс. Получил новую, интересную специальность...
-								</div>
-							</div><!-- .row -->
-						</div><!--.item-review -->
-					</div><!--.col-md-4 -->
-					<div class="col-md-4 col-sm-4">
-						<div class="item-review">
-							<div class="row">
-								<div class="col col-md-3 col-sm-3 col-xs-12">
-									<div class="photo">
-										<img src="/images/photo/kristina.jpg" alt="alt">
-									</div>
-								</div>
-								<div class="col-md-9 col-sm-9 col-xs-12">
-									<div class="name">
-										<span class="fio">Александра Соколова</span><span class="underline">выпускник, 2015г.</span>
-									</div>
-								</div>
-								<div class="col-md-12 review-text">
-									Профессионализм автора и ведущей курса поражает! Понятная схема изложения материала. Понравились практические занятия...
-								</div>
-							</div><!-- .row -->
-						</div><!--.item-review -->
-					</div><!--.col-md-4 -->
-				</div> <!--.row -->
-			</div><!-- .container -->
-		</section>
-
-		<footer id="main-footer">
-			<div class="container">
-				<div class="row bg-blue">
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="footer-item">
-							<div class="header">О нас</div>
-
-							<div class="content">
-								<ul>
-									<li><a href="#">Учебный центр</a></li>
-									<li><a href="#">Наши новости</a></li>
-									<li><a href="#">Представительства</a></li>
-									<li><a href="#">СМИ о нас</a></li>
-									<li><a href="#">Фотогалерея</a></li>
-									<li><a href="#">Сотрудничество</a></li>							
-									<!-- <li><a href="#">Карта сайта</a></li> -->
-								</ul>
-							</div>
+							</aside>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="footer-item">
-							<div class="header">Наши курсы</div>
-							<div class="content">
-								<ul>
-									<li><a href="#">Базовый курс гида</a></li>
-									<li><a href="#">Расширенный курс гида</a></li>
-									<li><a href="#">Гид по Праге</a></li>
-									<li><a href="#">Гид-делегат</a></li>
-									<li><a href="#">Курс Культура речи</a></li>
-									<li><a href="#">Школа выходного дня</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="footer-item contacts">
-							<div class="header">Контакты</div>
-							<div class="f-content">
-								<ul>
-									<li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Blanická 28, 120 00 Praha, Vinohrady</li>
-									<li><i class="fa fa-phone"></i>&nbsp;&nbsp;+420 608-942-573</li>
-									<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@jumages.com</li>
-									<li><i class="fa fa-globe"></i>&nbsp;&nbsp;www.jumages.com</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+
+					</div> <!--row bg-light-blue -->
+
 				</div>
+			</section>
 
-				<div class="row bg-darken-blue">
-					<div class="col-md-12">
-						<div class="bottom-line">
-							<div class="copyright">Copyright © 2015 <a href="#">Jumages, s.r.o.</a></div>
-							<div class="bottom-social">
-								<ul>
-									<li><a href="#"><i class="fa fa-vk"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								</ul>
+			<section class="reviews" id="reviews">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<h2>Отзывы выпускников</h2>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="item-review">
+								<div class="row">
+									<div class="col col-md-3 col-sm-3 col-xs-12">
+										<div class="photo">
+											<img src="http://ladymadonna.ru/wp-content/uploads/2013/10/ladymadonna.ru_41-150x150.jpg" alt="alt">
+										</div>
+									</div>
+									<div class="col-md-9 col-sm-9 col-xs-12">
+										<div class="name">
+											<span class="fio">Елена Иванова</span><span class="underline">выпускник, 2014г.</span>
+										</div>
+									</div>
+									<div class="col-md-12 review-text">
+										Решила пройти это курс и не пожалела. Масса положительных эмоций и впечатлений...
+									</div>
+								</div><!-- .row -->
+							</div><!--.item-review -->
+						</div><!--.col-md-4 -->
+						<div class="col-md-4 col-sm-4">
+							<div class="item-review">
+								<div class="row">
+									<div class="col col-md-3 col-sm-3 col-xs-12">
+										<div class="photo">
+											<img src="/images/photo/man.jpg" alt="alt">
+										</div>
+									</div>
+									<div class="col-md-9 col-sm-9 col-xs-12">
+										<div class="name">
+											<span class="fio">Андрей Пургин</span><span class="underline">выпускник, 2015г.</span>
+										</div>
+									</div>
+									<div class="col-md-12 review-text">
+										Выражаю благодарность всем сотрудникам центра Jumages за этот интересный курс. Получил новую, интересную специальность...
+									</div>
+								</div><!-- .row -->
+							</div><!--.item-review -->
+						</div><!--.col-md-4 -->
+						<div class="col-md-4 col-sm-4">
+							<div class="item-review">
+								<div class="row">
+									<div class="col col-md-3 col-sm-3 col-xs-12">
+										<div class="photo">
+											<img src="/images/photo/kristina.jpg" alt="alt">
+										</div>
+									</div>
+									<div class="col-md-9 col-sm-9 col-xs-12">
+										<div class="name">
+											<span class="fio">Александра Соколова</span><span class="underline">выпускник, 2015г.</span>
+										</div>
+									</div>
+									<div class="col-md-12 review-text">
+										Профессионализм автора и ведущей курса поражает! Понятная схема изложения материала. Понравились практические занятия...
+									</div>
+								</div><!-- .row -->
+							</div><!--.item-review -->
+						</div><!--.col-md-4 -->
+					</div> <!--.row -->
+				</div><!-- .container -->
+			</section>
+
+			<footer id="main-footer">
+				<div class="container">
+					<div class="row bg-blue">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="footer-item">
+								<div class="header">О нас</div>
+
+								<div class="content">
+									<ul>
+										<li><a href="#">Учебный центр</a></li>
+										<li><a href="#">Наши новости</a></li>
+										<li><a href="#">Представительства</a></li>
+										<li><a href="#">СМИ о нас</a></li>
+										<li><a href="#">Фотогалерея</a></li>
+										<li><a href="#">Сотрудничество</a></li>							
+										<!-- <li><a href="#">Карта сайта</a></li> -->
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="footer-item">
+								<div class="header">Наши курсы</div>
+								<div class="content">
+									<ul>
+										<li><a href="#">Базовый курс гида</a></li>
+										<li><a href="#">Расширенный курс гида</a></li>
+										<li><a href="#">Гид по Праге</a></li>
+										<li><a href="#">Гид-делегат</a></li>
+										<li><a href="#">Курс Культура речи</a></li>
+										<li><a href="#">Школа выходного дня</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="footer-item contacts">
+								<div class="header">Контакты</div>
+								<div class="f-content">
+									<ul>
+										<li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Blanická 28, 120 00 Praha, Vinohrady</li>
+										<li><i class="fa fa-phone"></i>&nbsp;&nbsp;+420 608-942-573</li>
+										<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@jumages.com</li>
+										<li><i class="fa fa-globe"></i>&nbsp;&nbsp;www.jumages.com</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div><!--.container -->
-		</footer>
+
+					<div class="row bg-darken-blue">
+						<div class="col-md-12">
+							<div class="bottom-line">
+								<div class="copyright">Copyright © 2015 <a href="#">Jumages, s.r.o.</a></div>
+								<div class="bottom-social">
+									<ul>
+										<li><a href="#"><i class="fa fa-vk"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--.container -->
+			</footer>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -401,6 +384,7 @@
 	<![endif]-->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="jquery.quovolver.js"></script>
+	
 	<script src="libs/dropdown/dropdown.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 
@@ -412,6 +396,7 @@
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
+	<script type="text/javascript" src="libs/jcarousellite/jquery.jcarousellite.min.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
