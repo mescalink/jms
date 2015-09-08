@@ -1,0 +1,26 @@
+.main-page-section {
+    background-size: cover !important;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    min-height:600px;
+}
+
+.section-guide {
+background: rgba(0,0,0,0) url('/images/sections/guide.jpg') repeat scroll 0 0;
+}
+.section-extguide {
+background: rgba(0,0,0,0) url('/images/sections/extguide.jpg') repeat scroll 0 0;
+}
+.section-prague {
+background: rgba(0,0,0,0) url('/images/sections/prague.jpg') repeat scroll 0 0;
+}
+.section-delegate {
+background: rgba(0,0,0,0) url('/images/sections/delegate.jpg') repeat scroll 0 0;
+}
+.section-others {
+background: rgba(0,0,0,0) url('/images/sections/others.jpg') repeat scroll 0 0;
+}
+
