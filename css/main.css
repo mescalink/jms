@@ -64,7 +64,6 @@ a, a:hover, a:visited, a:focus {
 	background-color: #2F71A1;
 }
 .bg-darken-blue {
-	background-color: #005;
 	background-color: #2F71A1;
 }
 .bg-lblue {
@@ -528,7 +527,7 @@ h1, h2, h3 {
 	font-size: 1.3rem;
 	font-style: italic;
 	line-height: 1.5rem;
-	margin: 0 0 0 0;
+	margin: 0 20px 0 0;
 	padding: 0 20px 0 0;
 	position: relative;
 	text-align: right;

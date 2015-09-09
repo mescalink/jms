@@ -5,6 +5,10 @@
 .clr-guide {
   color: #007676;
 }
+.a-guide:hover,
+.active>.a-guide {
+ border-bottom-color: #007676;
+}
 
 .bg-extguide {
   background-color: #C40000;
@@ -12,16 +16,74 @@
 .clr-extguide {
   color: #C40000;
 }
+.a-extguide:hover,
+.active>.a-extguide
+{
+ border-bottom-color: #C40000;
+}
+
+
+
 .bg-prague {
   background-color: #C45900
 }
 .clr-prague {
   color: #C45900;
 }
+.a-prague:hover,
+.active>.a-prague {
+  border-bottom-color: #C45900;
+}
+
 .bg-delegate {
   background-color: #009D00;
 }
 .clr-delegate {
   color: #009D00;
 }
+.a-delegate:hover,
+.active>.a-delegate
+{
+ border-bottom-color: #009D00;
+}
 
+.bg-others {
+  background-color: #2F71A1;
+}
+.clr-others {
+ color: #2F71A1;
+}
+.a-others:hover,
+.active>.a-others
+{
+  border-bottom-color: #2F71A1;
+}
+
+.item .b-normal {
+    display: inline-block;
+    text-align:center;
+    width:130px;
+    font-family: "RobotoCondensedBold";
+    height: 28px;
+    font-size:1.4rem;
+    line-height:28px;
+    padding:0 10px;
+    margin:5px auto;
+    text-transform:uppercase;
+    border-radius:5px;
+    color: #ddd;
+    opacity: 0.9;
+    /*font-weight: bold;*/
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.8);
+}
+.section-others .b-normal {
+  position:absolute;
+  bottom:5px;
+  left:50px;
+
+}
+
+.section-others .blocks .block {
+  height:250px;
+  overflow:hidden;
+}

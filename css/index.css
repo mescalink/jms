@@ -1,3 +1,10 @@
+.top-logo {
+    font-size: 1.1rem;
+    margin: 25px auto 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
 .main-page-section {
     background-size: cover !important;
     font-size: 1.6rem;
@@ -15,13 +22,13 @@
     background: rgba(0,0,0,0) url('/images/sections/extguide.jpg') repeat scroll 0 0;
 }
 .section-prague {
-    background: rgba(0,0,0,0) url('/images/sections/prague.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/10.jpg') repeat scroll 0 0;
 }
 .section-delegate {
-    background: rgba(0,0,0,0) url('/images/sections/delegate.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/12.jpg') repeat scroll 0 0;
 }
 .section-others {
-    background: rgba(0,0,0,0) url('/images/sections/others.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/4.jpg') repeat scroll 0 0;
 }
 
 .main-menu {
@@ -33,20 +40,23 @@
 .main_menu_button {
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: #444;
     font-size: 2.6rem;
     padding: 0 15px 0;
 }
 .main-menu ul {
-    float: left;
+    /*float: left;*/
+    width: 940px;
+    margin:0 auto 5px auto; 
     list-style-type: none;
-    margin: 0;
+
     padding: 0;
     z-index: 12;
 }
 .main-menu ul li {
     display: inline-block;
     position: relative;
+   
 }
 .main-menu a {
     color: #444;
@@ -56,16 +66,18 @@
     margin: 0;
     o-transition: all .25s;
     outline: none;
-    padding: 10px 10px;
+    padding: 5px 5px;
+    margin: 5px 5px;
     text-transform: uppercase;
     transition: all .25s;
     webkit-transition: all .25s;
+    border-bottom: 2px solid transparent;
 }
 .main-menu li.active a {
-    background-color: #6296BC;
+
 }
 .main-menu a:hover {
-    background-color: #6296BC;
+    /*background-color: #6296BC;*/
     text-decoration: none;
 }
 section > .line {
@@ -172,9 +184,7 @@ section .item  {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-.item .button-detail {
 
-}
 .item .button-register {
    background-color: #C40000;
 }
