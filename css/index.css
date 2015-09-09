@@ -9,19 +9,19 @@
 }
 
 .section-guide {
-background: rgba(0,0,0,0) url('/images/sections/guide.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/guide.jpg') repeat scroll 0 0;
 }
 .section-extguide {
-background: rgba(0,0,0,0) url('/images/sections/extguide.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/extguide.jpg') repeat scroll 0 0;
 }
 .section-prague {
-background: rgba(0,0,0,0) url('/images/sections/prague.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/prague.jpg') repeat scroll 0 0;
 }
 .section-delegate {
-background: rgba(0,0,0,0) url('/images/sections/delegate.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/delegate.jpg') repeat scroll 0 0;
 }
 .section-others {
-background: rgba(0,0,0,0) url('/images/sections/others.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/sections/others.jpg') repeat scroll 0 0;
 }
 
 .main-menu {
@@ -80,7 +80,7 @@ section > .line {
 }
 
 section .item  {
-    
+
     background-color: rgba(255,255,255,.8);
     min-height:500px;
 }
@@ -92,15 +92,17 @@ section .item  {
     height:36px;
     border-radius:50%;
     margin:0 10px 0 0;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .block .header {
     display:inline-block;
     vertical-align:middle;
-    /*font-family: Mariad_pro,"Helvetica",Helvetica,Arial,sans-serif;*/
+    font-family: "RobotoCondensedRegular";
     font-size: 1.6rem;
     line-height: 36px;
     height: 36px;
-    color: #215173;
+    /*color: #215173;*/
     font-weight: 400;
     text-align:left;
 }
@@ -112,68 +114,67 @@ section .item  {
     padding:0;
 }
 
-/*============ Section Guide ============*/
-.section-guide .line {
- background: #007676 none repeat scroll 0% 0%;
-}
-.section-guide h1 {
-        color: #007676;
-    }
-.section-guide .icon {
-      background-color:  #007676;;
-    }
 
-.section-guide .header {
-        color: #007676;
-        font-family: "RobotoCondensedRegular";
-    }
-.section-guide .btn-detail {
-        background-color: #007676;
-        color: #fff;
-        opacity: 0.8;
-        font-weight: bold;
-    }
-.section-guide .btn-detail:hover {
-       opacity: 1;
-    }
-
-
-
-.section-extguide .line {
-    
-}
-.section-prague .line {
-    
-}
-.section-delegate .line {
-    
-}
-.section-others .line {
-    
-}
 .blocks {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .block {
-    height:240px;
+    min-height:210px;
     background-color: rgba (255,255,255,.5);
     background-color: #EEF3F3;
-     /*background-color: #CAD4DD;*/
-     border-radius:10px;
-     padding:10px;
-     text-align:left;
+    /*background-color: #CAD4DD;*/
+    border-radius:10px;
+    padding:10px;
+    text-align:left;
+    margin-top:10px;   
 }
-
 
 .i-calendar {
-    background: url('/images/icons/calendar.png') no-repeat center center;
+    background-image: url('/images/icons/calendar.png');
+
 }
 .i-forms {
-    background: url('/images/icons/forms.png') no-repeat center center;
+    background-image: url('/images/icons/forms.png');
 }
 .i-sert {
-    background: url('/images/icons/sert.png') no-repeat center center;
+    background-image: url('/images/icons/sert.png');
 }
 .i-cost {
-    background: url('/images/icons/cost.png') no-repeat center center;
+    background-image: url('/images/icons/cost.png');
+}
+.buttons {
+  margin-top: 30px;  
+}
+.item .button {
+    display: inline-block;
+    width:230px;
+    font-family: "RobotoCondensedBold";
+    height: 36px;
+    font-size:2rem;
+    line-height:36px;
+    padding:0 10px;
+    margin:5px 10px;
+    text-transform:uppercase;
+    border-radius:5px;
+    color: #ddd;
+    opacity: 0.9;
+    /*font-weight: bold;*/
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.8);
+}
+.item .button:hover {
+ opacity: 1;
+}
+.item .button:active {
+  margin-top:6px;
+  margin-bottom:4px;
+  margin-left:11px;
+  margin-right:9px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.item .button-detail {
+
+}
+.item .button-register {
+   background-color: #C40000;
 }

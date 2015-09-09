@@ -309,7 +309,7 @@ a, a:hover, a:visited, a:focus {
 	font-size: 1.4rem;
 	padding: 22px 15px 22px 15px;
 }
-.item h1 {
+.main-content .item h1 {
 	color: #444;
 	font-family: "RobotoCondensedRegular";
 	font-size: 2.6rem;
