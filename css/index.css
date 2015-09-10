@@ -16,19 +16,19 @@
 }
 
 .section-guide {
-    background: rgba(0,0,0,0) url('/images/sections/guide.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/bg/guide.jpg') repeat scroll 0 0;
 }
 .section-extguide {
-    background: rgba(0,0,0,0) url('/images/sections/extguide.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/bg/extguide.jpg') repeat scroll 0 0;
 }
 .section-prague {
-    background: rgba(0,0,0,0) url('/images/sections/10.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/bg/prague.jpg') repeat scroll 0 0;
 }
 .section-delegate {
-    background: rgba(0,0,0,0) url('/images/sections/12.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/bg/delegate.jpg') repeat scroll 0 0;
 }
 .section-others {
-    background: rgba(0,0,0,0) url('/images/sections/4.jpg') repeat scroll 0 0;
+    background: rgba(0,0,0,0) url('/images/bg/others.jpg') repeat scroll 0 0;
 }
 
 .main-menu {
@@ -187,4 +187,9 @@ section .item  {
 
 .item .button-register {
    background-color: #C40000;
+}
+.reviews {
+    background-color: #EEEEEE;
+    padding-top:30px;
+    padding-bottom: 30px;
 }

@@ -68,7 +68,7 @@
     font-size:1.4rem;
     line-height:28px;
     padding:0 10px;
-    margin:5px auto;
+    margin:5px 5px;
     text-transform:uppercase;
     border-radius:5px;
     color: #ddd;
@@ -76,14 +76,20 @@
     /*font-weight: bold;*/
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.8);
 }
-.section-others .b-normal {
-  position:absolute;
-  bottom:5px;
-  left:50px;
-
+.section-others .item .description {
+  height:150px;
+  overflow:hidden;
+}
+.item .b-normal:active {
+  margin-top:6px;
+  margin-bottom:4px;
+  margin-left:6px;
+  margin-right:4px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .section-others .blocks .block {
   height:250px;
   overflow:hidden;
+  text-align:center;
 }

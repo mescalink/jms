@@ -32,6 +32,17 @@ a, a:hover, a:visited, a:focus {
 	outline: none;
 	text-decoration: none;
 }
+
+.hidden {
+	display:none;
+}
+
+.callback {
+	position:absolute;
+
+}
+
+
 .top-header {
 	background-color: #fff;
 }
@@ -302,6 +313,9 @@ a, a:hover, a:visited, a:focus {
 	display: block;
 	width: 230px;
 }
+.a-callback:hover {
+ text-decoration:underline;
+}
 .main-content {
 }
 .item {
@@ -367,7 +381,6 @@ h1, h2, h3 {
 	margin-top: 0px;
 }
 .reviews .container {
-	background-color: #CAD4DD;
 	background-color: #eee;
 }
 .reviews h2 {
@@ -729,4 +742,7 @@ footer .contacts ul li {
     background-color: #2F71A1;
     color: #6296BC;
     border: 0px solid #CCC;
+}
+.footer-bottom {
+	height:42px;
 }

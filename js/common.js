@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $('#quotes ul li').quovolver(800,15000);
+	$('#quotes ul li').quovolver(800,15000);
 
-var reviews = $("#reviews-slider");
-var reviews_container= $("#reviews-slider-container");
- reviews.owlCarousel({
+	var reviews = $("#reviews-slider");
+	var reviews_container= $("#reviews-slider-container");
+	reviews.owlCarousel({
 		items :1,
 		autoPlay: true,
 		autoHeight:false
@@ -30,14 +30,43 @@ var reviews_container= $("#reviews-slider-container");
 	var austDay = new Date($(".countdown").attr("date-time"));
 	$(".countdown").countdown({until: austDay, format: 'yowdHMS'});
 
-$(".main_menu_button").click(function(){
+	$(".main_menu_button").click(function(){
 		$(".menu-courses>ul").slideToggle();
 	});
+
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
+
+	$(".callback").fancybox();	
+
+	$('.button-register').on("click", function (e) {
+    e.preventDefault(); // avoids calling preview.php
+    var course_id=$(this).attr("data-course-id");
+    $.ajax({
+      type: "POST",
+      cache: false,
+      url: this.href, // preview.php
+      data: {"course_id":course_id}, // all form fields
+      success: function (data) {
+        // on success, post (preview) returned data in fancybox
+        $.fancybox(data, {
+          // fancybox API options
+          fitToView: false,
+          width: 905,
+          height: 505,
+          autoSize: false,
+          closeClick: false,
+          openEffect: 'none',
+          closeEffect: 'none'
+        }); // fancybox
+      } // success
+    }); // ajax
+  }); // on
+
+
 
 	//Навигация по Landing Page
 	//$(".top_mnu") - это верхняя панель со ссылками.
