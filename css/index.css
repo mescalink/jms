@@ -9,12 +9,11 @@
     background-size: cover !important;
     font-size: 1.6rem;
     line-height: 1.7;
+    min-height: 600px;
     padding: 20px;
     position: relative;
     text-align: center;
-    min-height:600px;
 }
-
 .section-guide {
     background: rgba(0,0,0,0) url('/images/bg/guide.jpg') repeat scroll 0 0;
 }
@@ -30,9 +29,7 @@
 .section-others {
     background: rgba(0,0,0,0) url('/images/bg/others.jpg') repeat scroll 0 0;
 }
-
 .main-menu {
-    /*background-color: #2F71A1;*/
     margin: 0;
     padding: 0;
     position: relative;
@@ -45,105 +42,92 @@
     padding: 0 15px 0;
 }
 .main-menu ul {
-    /*float: left;*/
-    width: 940px;
-    margin:0 auto 5px auto; 
     list-style-type: none;
-
+    margin: 0 auto 5px auto;
     padding: 0;
+    width: 940px;
     z-index: 12;
 }
 .main-menu ul li {
     display: inline-block;
     position: relative;
-   
 }
 .main-menu a {
+    border-bottom: 2px solid transparent;
     color: #444;
     display: block;
     font-family: "RobotoRegular";
     font-size: 1.4rem;
     margin: 0;
+    margin: 5px 5px;
     o-transition: all .25s;
     outline: none;
     padding: 5px 5px;
-    margin: 5px 5px;
     text-transform: uppercase;
     transition: all .25s;
     webkit-transition: all .25s;
-    border-bottom: 2px solid transparent;
 }
 .main-menu li.active a {
-
 }
 .main-menu a:hover {
-    /*background-color: #6296BC;*/
     text-decoration: none;
 }
 section > .line {
-    position: absolute;
-    top: 0px;
     bottom: auto;
-    left: 0px;
-    right: auto;
-    width: 0.5rem;
     height: 100%;
+    left: 0px;
+    position: absolute;
+    right: auto;
+    top: 0px;
+    width: 0.5rem;
     z-index: 999;
 }
-
-section .item  {
-
+section .item {
     background-color: rgba(255,255,255,.8);
-    min-height:500px;
+    min-height: 500px;
 }
 .block .icon {
-    display:inline-block;
-    vertical-align:middle;
-    float:left;
-    width:36px;
-    height:36px;
-    border-radius:50%;
-    margin:0 10px 0 0;
     background-position: center center;
     background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    height: 36px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    width: 36px;
 }
 .block .header {
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
     font-family: "RobotoCondensedRegular";
     font-size: 1.6rem;
-    line-height: 36px;
-    height: 36px;
-    /*color: #215173;*/
     font-weight: 400;
-    text-align:left;
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    vertical-align: middle;
 }
 .block .description {
-    margin-top:10px;
+    margin-top: 10px;
 }
 .block ul {
-    margin:0 0 0 30px;
-    padding:0;
+    margin: 0 0 0 30px;
+    padding: 0;
 }
-
-
 .blocks {
     margin-top: 20px;
 }
 .block {
-    min-height:210px;
-    background-color: rgba (255,255,255,.5);
     background-color: #EEF3F3;
-    /*background-color: #CAD4DD;*/
-    border-radius:10px;
-    padding:10px;
-    text-align:left;
-    margin-top:10px;   
+    background-color: rgba (255,255,255,.5);
+    border-radius: 10px;
+    margin-top: 10px;
+    min-height: 210px;
+    padding: 10px;
+    text-align: left;
 }
-
 .i-calendar {
     background-image: url('/images/icons/calendar.png');
-
 }
 .i-forms {
     background-image: url('/images/icons/forms.png');
@@ -155,41 +139,68 @@ section .item  {
     background-image: url('/images/icons/cost.png');
 }
 .buttons {
-  margin-top: 30px;  
+    margin-top: 30px;
 }
 .item .button {
-    display: inline-block;
-    width:230px;
-    font-family: "RobotoCondensedBold";
-    height: 36px;
-    font-size:2rem;
-    line-height:36px;
-    padding:0 10px;
-    margin:5px 10px;
-    text-transform:uppercase;
-    border-radius:5px;
-    color: #ddd;
-    opacity: 0.9;
-    /*font-weight: bold;*/
+    border-radius: 5px;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.8);
+    color: #ddd;
+    display: inline-block;
+    font-family: "RobotoCondensedBold";
+    font-size: 2rem;
+    height: 36px;
+    line-height: 36px;
+    margin: 5px 10px;
+    opacity: 0.9;
+    padding: 0 10px;
+    text-transform: uppercase;
+    width: 230px;
 }
 .item .button:hover {
- opacity: 1;
+    opacity: 1;
 }
 .item .button:active {
-  margin-top:6px;
-  margin-bottom:4px;
-  margin-left:11px;
-  margin-right:9px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    margin-bottom: 4px;
+    margin-left: 11px;
+    margin-right: 9px;
+    margin-top: 6px;
 }
-
-
 .item .button-register {
-   background-color: #C40000;
+    background-color: #C40000;
 }
 .reviews {
     background-color: #EEEEEE;
-    padding-top:30px;
     padding-bottom: 30px;
+    padding-top: 30px;
+}
+.scroll-top-button {
+    background-color: rgba(255,255,255,.5);
+    border-radius: 5px;
+    bottom: 40px;
+    color: #777;
+    cursor: pointer;
+    font-size: 2.6rem;
+    font-weight: 900;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    right: 40px;
+    text-align: center;
+    width: 50px;
+    z-index: 50;
+}
+.scroll-top-button:hover {
+    background-color: rgba(255,255,255,.7);
+    color: #444;
+}
+.top-header {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.first-section {
+    margin-top: 220px;
 }

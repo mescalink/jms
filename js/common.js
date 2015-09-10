@@ -22,11 +22,6 @@ $(document).ready(function() {
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
-
-
-
-
-
 	var austDay = new Date($(".countdown").attr("date-time"));
 	$(".countdown").countdown({until: austDay, format: 'yowdHMS'});
 
@@ -46,8 +41,8 @@ $(document).ready(function() {
     e.preventDefault(); // avoids calling preview.php
     var course_id=$(this).attr("data-course-id");
     $.ajax({
-      type: "POST",
-      cache: false,
+    	type: "POST",
+    	cache: false,
       url: this.href, // preview.php
       data: {"course_id":course_id}, // all form fields
       success: function (data) {
@@ -65,8 +60,6 @@ $(document).ready(function() {
       } // success
     }); // ajax
   }); // on
-
-
 
 	//Навигация по Landing Page
 	//$(".top_mnu") - это верхняя панель со ссылками.
@@ -112,16 +105,7 @@ $(document).ready(function() {
 		owl.trigger("owl.prev");
 	});
 
-	//Кнопка "Наверх"
-	//Документация:
-	//http://api.jquery.com/scrolltop/
-	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
+
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/

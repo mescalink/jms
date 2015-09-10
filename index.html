@@ -130,15 +130,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<nav class="main-menu clearfix">
+							<nav class="main-menu clearfix" id="main-menu">
 								<button class="main_menu_button hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
 								<ul>
-									<li class="active"><a href="#" class="menu-item a-guide">Базовый курс гида</a></li>
-									<li ><a href="#" class="menu-item a-extguide">Расширенный курс гида</a></li>
-									<li><a href="#" class="menu-item a-prague">Гид по Праге</a></li>
-									<li><a href="#" class="menu-item a-delegate">Гид-сопровождающий</a></li>
-									<li><a href="#" class="menu-item a-others">Другие курсы</a></li>
-									<li><a href="#" class="menu-item a-contacts">Контакты</a></li>
+									<li ><a href="#course-guide" class="a-guide active">Базовый курс гида</a></li>
+									<li ><a href="#course-extguide" class="a-extguide">Расширенный курс гида</a></li>
+									<li><a href="#course-prague" class="a-prague">Гид по Праге</a></li>
+									<li><a href="#course-delegate" class="a-delegate">Гид-сопровождающий</a></li>
+									<li><a href="#course-others" class="a-others">Другие курсы</a></li>
+									<li><a href="#contacts" class="a-contacts">Контакты</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -147,7 +147,7 @@
 			</div>
 		</header>
 
-		<section id="course-guide" class="main-page-section section-guide">
+		<section id="course-guide" class="main-page-section section-guide first-section">
 			<div class="line bg-guide"></div>
 			<div class="container">
 				<div class="row">
@@ -307,8 +307,6 @@
 						</div><!--.row -->
 					</div><!--.container -->
 				</section>
-
-
 				<section id="course-prague" class="main-page-section section-prague">
 					<div class="line bg-prague"></div>
 					<div class="container">
@@ -387,8 +385,6 @@
 							</div><!--.row -->
 						</div><!--.container -->
 					</section>
-
-
 					<section id="course-delegate" class="main-page-section section-delegate">
 						<div class="line bg-delegate"></div>
 						<div class="container">
@@ -540,7 +536,7 @@
 											</div>
 										</section>
 
-										<section class="reviews" id="reviews">
+										<section class="main-page-section reviews" id="reviews">
 											<div class="container">
 												<div class="row">
 													<div class="col-md-12 col-sm-12">
@@ -607,81 +603,116 @@
 											</div><!-- .container -->
 										</section>
 
-										<footer id="main-footer">
-											<div class="footer-top bg-blue">
+										<section id="contacts" class="main-page-section bg-contacts section-contacts">
+											<div class="line bg-contacts"></div>
 											<div class="container">
 												<div class="row">
-													<div class="col-md-4 col-sm-4 col-xs-12">
-														<div class="footer-item">
-															<div class="header">О нас</div>
+													<div class="col col-lg-12 col-md-12">
+														<div class="contacts-content">
+															<h1 class="clr-contacts">Контакты</h1>
+															<div class="desc">
+																Для связи с нами используйте форму обратной связи приведенную ниже.
+															</div>
+															<div class="row">
+																<div class="col col-md-6 feedback">
+																	<form action="" class="frm-feedback">
+																		<input type="text" name="name"  class="error" placeholder="Ваше имя">
+																		<input type="text" name="email" placeholder="Ваш Email">
+																		<input type="text" name="subject" placeholder="Тема сообщения">
+																		<textarea rows="3" name="message" placeholder="Введите ваше сообщение"></textarea>
+																		<a class="button" href="#"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Отправить</a>
+																	</form>
 
-															<div class="content">
-																<ul>
-																	<li><a href="#">Учебный центр</a></li>
-																	<li><a href="#">Наши новости</a></li>
-																	<li><a href="#">Представительства</a></li>
-																	<li><a href="#">СМИ о нас</a></li>
-																	<li><a href="#">Фотогалерея</a></li>
-																	<li><a href="#">Сотрудничество</a></li>							
-																	<!-- <li><a href="#">Карта сайта</a></li> -->
-																</ul>
+																</div>
+																<div class="col col-md-6 map">
+																	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3621.161022418502!2d14.440019196439513!3d50.0760351664819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2scz!4v1441853775561" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>						
+																</div>
+															</div>
+
+														</div><!--.item-->
+													</div>
+												</div>  <!--.row -->
+											</div><!--.container -->
+										</section>
+										<footer id="main-footer">
+											<div class="footer-top bg-blue">
+												<div class="container">
+													<div class="row">
+														<div class="col-md-4 col-sm-4 col-xs-12">
+															<div class="footer-item">
+																<div class="header">О нас</div>
+
+																<div class="content">
+																	<ul>
+																		<li><a href="#">Учебный центр</a></li>
+																		<li><a href="#">Наши новости</a></li>
+																		<li><a href="#">Представительства</a></li>
+																		<li><a href="#">СМИ о нас</a></li>
+																		<li><a href="#">Фотогалерея</a></li>
+																		<li><a href="#">Сотрудничество</a></li>							
+																		<!-- <li><a href="#">Карта сайта</a></li> -->
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-4 col-xs-12">
+															<div class="footer-item">
+																<div class="header">Наши курсы</div>
+																<div class="content">
+																	<ul>
+																		<li><a href="#">Базовый курс гида</a></li>
+																		<li><a href="#">Расширенный курс гида</a></li>
+																		<li><a href="#">Гид по Праге</a></li>
+																		<li><a href="#">Гид-делегат</a></li>
+																		<li><a href="#">Курс Культура речи</a></li>
+																		<li><a href="#">Школа выходного дня</a></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-4 col-xs-12">
+															<div class="footer-item contacts">
+																<div class="header">Контакты</div>
+																<div class="f-content">
+																	<ul>
+																		<li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Blanická 28, 120 00 Praha, Vinohrady</li>
+																		<li><i class="fa fa-phone"></i>&nbsp;&nbsp;+420 608-942-573</li>
+																		<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@jumages.com</li>
+																		<li><i class="fa fa-globe"></i>&nbsp;&nbsp;www.jumages.com</li>
+																	</ul>
+																</div>
 															</div>
 														</div>
 													</div>
-													<div class="col-md-4 col-sm-4 col-xs-12">
-														<div class="footer-item">
-															<div class="header">Наши курсы</div>
-															<div class="content">
-																<ul>
-																	<li><a href="#">Базовый курс гида</a></li>
-																	<li><a href="#">Расширенный курс гида</a></li>
-																	<li><a href="#">Гид по Праге</a></li>
-																	<li><a href="#">Гид-делегат</a></li>
-																	<li><a href="#">Курс Культура речи</a></li>
-																	<li><a href="#">Школа выходного дня</a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="col-md-4 col-sm-4 col-xs-12">
-														<div class="footer-item contacts">
-															<div class="header">Контакты</div>
-															<div class="f-content">
-																<ul>
-																	<li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Blanická 28, 120 00 Praha, Vinohrady</li>
-																	<li><i class="fa fa-phone"></i>&nbsp;&nbsp;+420 608-942-573</li>
-																	<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@jumages.com</li>
-																	<li><i class="fa fa-globe"></i>&nbsp;&nbsp;www.jumages.com</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
 												</div>
 											</div>
-												<div class="footer-bottom bg-darken-blue">
+											<div class="footer-bottom bg-darken-blue">
 												<div class="container">
-												<div class="row">
-													<div class="col-md-12">
-														<div class="bottom-line">
-															<div class="copyright">Copyright © 2015 <a href="#">Jumages, s.r.o.</a></div>
-															<div class="bottom-social">
-																<ul>
-																	<li><a href="#"><i class="fa fa-vk"></i></a></li>
-																	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-																	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-																</ul>
+													<div class="row">
+														<div class="col-md-12">
+															<div class="bottom-line">
+																<div class="copyright">Copyright © 2015 <a href="#">Jumages, s.r.o.</a></div>
+																<div class="bottom-social">
+																	<ul>
+																		<li><a href="#"><i class="fa fa-vk"></i></a></li>
+																		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+																		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+																	</ul>
+																</div>
 															</div>
 														</div>
 													</div>
-												</div>
-											</div><!--.container -->
-										</div>
+												</div><!--.container -->
+											</div>
 										</footer>
 
+										<div class="scroll-top-button" id="scroll-top">
+											<i class="fa fa-angle-double-up"></i>
+										</div>
 										<!--Скрытые блоки -->
 										<div class="hidden">
-
+											
+											
 											<form id="callback" class="popup_form">
 												<h3>Заказать обратный звонок</h3>
 												<input type="text" name="name" placeholder="Ваше имя..." required>
@@ -705,10 +736,9 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="jquery.quovolver.js"></script>
+	<script src="libs/quovolver/jquery.quovolver.js"></script>
 	<script src="libs/dropdown/dropdown.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
@@ -718,6 +748,7 @@
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/index.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
