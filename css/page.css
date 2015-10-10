@@ -1,42 +1,4 @@
-.news-list {
-	font-size:1.4rem;
-}
-.news-list ul
-{
-	list-style-type:none;
-	padding:0;
-	margin: 0 0 0 0px;
-}
-.news-list ul li {
-	margin:2px 0 3px 0;
-}
-.news-list li a {
-	font-size:1.4rem;
-	line-height:1.6rem;
-}
-.news-list li a:hover {
-	text-decoration: underline;
-}
-.news-list  ul li .date{
-	display: inline-block;
-	margin-right:5px;
-	padding:2px 5px;
-	background-color:#CAD4DD;
-	color:#1A5C8C;
-	border-radius:3px;
-	font-size:1.3rem;
-	line-height:1.4rem;
-}
-.news-list .read-more {
-	display: block;
-	float:right;
-	/*color: red;*/
-	/*font-style:italic;*/
-	text-decoration: underline;
-}
-.news-list .read-more:hover {
-	text-decoration: underline;
-}
+
 
 
 /*============= Reviews Left ==*/
@@ -135,27 +97,5 @@
 
 
 
-.btn-subscribe {
-	color:#ddd;
-	text-transform: none;
-	background-color: #2F71A1;
-	float: right;
-}
-.btn-subscribe:hover {
- color:#fff;
-}
 
-
-
-.subscribe input[type="email"] {
-	display:block;
-	width:95%;
-	height:25px;
-	font-family: "RobotoRegular";
-	color:#777;
-	vertical-align:middle;
-	margin:5px 20px 5px 10px;
-	border: 1px solid #2F71A1;
-
-}
 
